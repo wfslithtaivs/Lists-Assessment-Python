@@ -1,4 +1,4 @@
-"""List Assessment 
+"""List Assessment
 
 Edit the functions until all of the doctests pass when
 you run this file.
@@ -43,10 +43,11 @@ def print_indices(items):
         1 Jeep
         2 Toyota
         3 Volvo
-    
+
     """
     for i, item in enumerate(items):
-        print "%s %s" % (i, item) 
+        print "%s %s" % (i, item)
+
 
 def foods_in_common(foods1, foods2):
     """Find foods in common.
